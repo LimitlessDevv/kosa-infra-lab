@@ -13,7 +13,7 @@ spec:
     ipPools:
       - blockSize: 26
         cidr: 192.168.0.0/16
-        encapsulation: VXLANCrossSubnet
+        encapsulation: IPIPCrossSubnet
         natOutgoing: Enabled
         nodeSelector: all()
   registry: quay.io
