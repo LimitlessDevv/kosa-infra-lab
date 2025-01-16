@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-KUBERNETES_VERSION=v1.27
+KUBERNETES_VERSION=v1.27.16
 CRIO_VERSION=v1.28
 cat <<EOF | tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
